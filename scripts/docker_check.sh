@@ -6,7 +6,7 @@ set -e
 echo "check if the tag wasn't pushed before"
 
 REPOSITORY=shekodn
-IMAGE=trendlit
+IMAGE=trendlit-tutorial-1
 TAG=`make version`
 
 ! docker pull ${REPOSITORY}/${IMAGE}:${TAG}

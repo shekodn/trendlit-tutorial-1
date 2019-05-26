@@ -4,7 +4,7 @@ set -e
 echo "run container"
 
 REPOSITORY=shekodn
-IMAGE=trendlit
+IMAGE=trendlit-tutorial-1
 TAG=`make version`
 
 PORT=80

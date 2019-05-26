@@ -4,7 +4,7 @@ set -e
 echo "remove image"
 
 REPOSITORY=shekodn
-IMAGE=trendlit
+IMAGE=trendlit-tutorial-1
 TAG=`make version`
 HASH=`git log --format="%H" -n 1 | cut -c1-6`
 
